@@ -3,10 +3,10 @@ import GNB from "../components/GNB";
 
 const Layout = ({ children }) => {
   return (
-    <Layout>
+    <>
       <GNB />
       <Outlet />
-    </Layout>
+    </>
   );
 };
 
